@@ -77,6 +77,9 @@ a{
 	-webkit-transform: translate3d(-500px,0px,0px);
 	transition: 1s;
 }
+.input:focus {
+outline:none;
+}
 
 
 .menu2{
