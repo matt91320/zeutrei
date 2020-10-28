@@ -67,7 +67,7 @@ a{
 	height: 50px;
 	right: 40px;
 	top: 20px;
-	outline-style: none;
+	-webkit-outline: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -76,10 +76,10 @@ a{
 .input:checked ~ .contact{
 	-webkit-transform: translate3d(-500px,0px,0px);
 	transition: 1s;
+	-webkit-outline: none;
+
 }
-.input:focus {
-outline:none;
-}
+
 
 
 .menu2{
