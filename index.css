@@ -71,7 +71,6 @@ a{
    	-moz-appearance: none;
    	appearance: none;
    	outline: none;
-	z-index: 999;
 }
 .input:focus{
 	outline: 0;
