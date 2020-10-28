@@ -67,7 +67,7 @@ a{
 	height: 50px;
 	right: 40px;
 	top: 20px;
-	outline: none;
+	outline-style: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -427,9 +427,7 @@ a{
 		margin:auto;
 		margin-top: 300px;
 	}
-	.input{
-		outline: red;
-	}
+
 
 
 
