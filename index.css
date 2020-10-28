@@ -75,7 +75,11 @@ a{
 	-moz-outline: none;
 	z-index: 999;
 }
-
+.input:focus{
+		outline: none;
+	-webkit-outline: none;
+	-moz-outline: none;
+}
 .input:checked ~ .contact{
 	-webkit-transform: translate3d(-500px,0px,0px);
 	transition: 1s;
