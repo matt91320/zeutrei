@@ -73,6 +73,9 @@ a{
 	appearance: none;
 	z-index: 999;
 }
+.input::before{
+	outline: none;
+}
 .input:checked ~ .contact{
 	-webkit-transform: translate3d(-500px,0px,0px);
 	transition: 1s;
