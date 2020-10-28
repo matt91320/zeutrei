@@ -70,7 +70,8 @@ a{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	outline: -10px solid transparent;
+	-webkit-outline: none;
+	-moz-outline: none;
 	z-index: 999;
 }
 .input:checked ~ .contact{
