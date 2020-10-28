@@ -67,6 +67,8 @@ a{
 	height: 50px;
 	right: 40px;
 	top: 20px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 	appearance: none;
 	outline: none;
 	z-index: 999;
@@ -102,7 +104,6 @@ a{
 	position: fixed;
 	top: 20px;
 	right: 25px;
-
 }
 .title-plateformes{
 	font-family: roboto;
