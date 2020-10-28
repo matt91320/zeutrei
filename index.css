@@ -74,7 +74,8 @@ a{
    	outline: none;
 }
 .input:focus{
-	outline: 0;
+	outline: none;
+	-webkit-outline: none;
 }
 
 .input:checked ~ .contact{
