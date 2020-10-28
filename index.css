@@ -427,6 +427,9 @@ a{
 		margin:auto;
 		margin-top: 300px;
 	}
+	.input{
+		outline: red;
+	}
 
 
 
