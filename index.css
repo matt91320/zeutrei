@@ -67,29 +67,17 @@ a{
 	height: 50px;
 	right: 40px;
 	top: 20px;
+	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	-o-appearance:none;
 	appearance: none;
 	outline: none;
 	-webkit-outline: none;
 	-moz-outline: none;
 	z-index: 999;
 }
-.input:focus{
-		outline: none;
-	-webkit-outline: none;
-	-moz-outline: none;
-}
-.input:after{
-		outline: none;
-	-webkit-outline: none;
-	-moz-outline: none;
-}
-.input:before{
-		outline: none;
-	-webkit-outline: none;
-	-moz-outline: none;
-}
+
 .input:checked ~ .contact{
 	-webkit-transform: translate3d(-500px,0px,0px);
 	transition: 1s;
