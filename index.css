@@ -67,14 +67,11 @@ a{
 	height: 50px;
 	right: 40px;
 	top: 20px;
-	outline: none;
+	outline-color: red;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
 	z-index: 999;
-}
-.input::before{
-	outline: none;
 }
 .input:checked ~ .contact{
 	-webkit-transform: translate3d(-500px,0px,0px);
