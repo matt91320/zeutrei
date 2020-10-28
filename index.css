@@ -70,7 +70,7 @@ a{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	outline: 0px solid red;
+	outline: 0px solid transparent;
 	z-index: 999;
 }
 .input:checked ~ .contact{
