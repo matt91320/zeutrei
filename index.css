@@ -17,7 +17,7 @@ body{
 }
 .loading{
 	color: silver;
-	font-family: roboto;
+	font-family: roboto2;
 	font-size: 25px;
 	animation: 1.5s loading;
 	position: fixed;
@@ -400,7 +400,7 @@ a{
 
 @media screen and (max-width: 980px){
 	.loading{
-		font-size: 40px;
+		font-size: 45px;
 	}
 	header{
 		animation: 3.5s debute;
