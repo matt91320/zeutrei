@@ -1,6 +1,15 @@
 @font-face{
 	font-family: roboto;
 	src: url(src/font/roboto.ttf);
+}
+@font-face{
+	font-family: roboto2;
+	src: url(src/font/roboto2.ttf);
+	letter-spacing: 0.05em;
+}
+@font-face{
+	font-family: nothing;
+	src: url(src/font/nothing.ttf);
 	letter-spacing: 0.05em;
 }
 body{
@@ -115,7 +124,7 @@ a{
 	right: 25px;
 }
 .title-plateformes{
-	font-family: roboto;
+	font-family: nothing;
 	text-decoration: underline #8f3024;
 	-webkit-text-decoration: underline #8f3024;
 }
@@ -160,16 +169,16 @@ a{
 	margin-left: 45px;
 }
 .title-last-song{
-	font-family: roboto;
+	font-family: roboto2;
 }
 .text-last-song{
-	font-family: roboto;
+	font-family: roboto2;
 	color: grey;
 }
 .link-last-song{
 	text-decoration: none;
 	color: #804687;
-	font-family: roboto;
+	font-family: roboto2;
 	display: block;
 }
 .link-last-song:hover{
@@ -209,8 +218,8 @@ a{
 .titre-la-marque{
 	color: white;
 	text-align: center;
-	font-family: roboto;
-
+	font-family:  nothing;
+	font-size: 40px;
 	padding: 6px;
 	width: 180px;
 	display: block;
@@ -230,7 +239,7 @@ a{
 	background-color: #202226;
 	padding: 45px;
 	border-radius: 0px 0px 5px 5px;
-	font-size: 25px;
+	font-size: 23px;
 	border-top: 4px solid white;
 }
 .container-la-marque{
@@ -318,7 +327,7 @@ a{
 
 
 .pub{
-	font-family: roboto;
+	font-family: nothing;
 	color: black;
 	font-size: 20px;
 	text-decoration: none;
