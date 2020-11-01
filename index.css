@@ -80,6 +80,8 @@ a{
 	-webkit-appearance: none;
    	-moz-appearance: none;
    	appearance: none;
+   	-moz-outline: none;
+   	-webkit-outline: none;
    	outline: none;
 }
 .input:focus{
