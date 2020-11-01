@@ -417,7 +417,7 @@ a{
 	.input{
 		width: 80px;
 		height: 80px;
-		-webkit-appearance: none;
+		outline: none;
 	}
 	.menu{
 		width: 80px;
