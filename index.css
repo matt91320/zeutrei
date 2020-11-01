@@ -536,7 +536,6 @@ a{
 
 @media screen and (orientation: landscape) and (max-width: 980px){
 	html{
-		display: none;
 		background-color: none;
 	}
 }
