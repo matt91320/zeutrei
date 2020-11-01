@@ -1,11 +1,4 @@
-.orientation{
-	display: none;
-	color: white;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-}
+
 
 @font-face{
 	font-family: roboto;
@@ -45,7 +38,7 @@ header{
 	height: 100px;
 	padding-left: 20px;
 	animation: 3s debut;
-	opacity: 0.95;
+	opacity: 1;
 }
 .tools{
 	margin-top: 80px;
